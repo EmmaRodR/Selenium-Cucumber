@@ -45,7 +45,7 @@
     "ToolWindowGit.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/emman/Desktop/SeleniumWithCucumber",
+    "last_opened_file_path": "C:/Users/emman/git/SeleniumWithCucumber2.0/SeleniumWithCucumber2.0",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -139,7 +139,8 @@
       <workItem from="1701302045361" duration="12244000" />
       <workItem from="1701444949058" duration="4580000" />
       <workItem from="1701455019901" duration="1507000" />
-      <workItem from="1701460144806" duration="55000" />
+      <workItem from="1701460144806" duration="374000" />
+      <workItem from="1701460536091" duration="92000" />
     </task>
     <servers />
   </component>
@@ -170,6 +171,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
