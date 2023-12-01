@@ -1,0 +1,28 @@
+const report = require("multiple-cucumber-html-reporter");
+
+report.generate({
+    jsonDir: "./test/report/",
+    reportPath: "./test/report/",
+    openReportInBrowser:true,
+    metadata: {
+        browser: {
+            name: "chrome",
+            version: "60",
+        },
+        device: "Local test machine",
+        platform: {
+            name: "Windows",
+            version: "11",
+        },
+    },
+    customData: {
+        title: "Run info",
+        data: [
+            { label: "Project", value: "Selenium With Cucumber" },
+            { label: "Release", value: "1.2.3" },
+            { label: "Cycle", value: "B11221.34321" },
+            { label: "Execution Start Time", value: "Dec 1th 2023, 02:31 PM EST" },
+            { label: "Execution End Time", value: "Dec 1th 2023, 02:31 PM EST" },
+        ],
+    },
+});
