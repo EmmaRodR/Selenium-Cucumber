@@ -36,7 +36,7 @@ public class Hooks {
     @After
     public void TearDown () {
 
-        System.out.println("El escenario numero: "+numberOfCase+" se ejecuto correctamente");
+        System.out.println("El escenario numero: "+numberOfCase+" se ejecuto exitosamente");
         driverManager.QuitDriver();
     }
 
