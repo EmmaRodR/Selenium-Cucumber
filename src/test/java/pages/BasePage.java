@@ -16,9 +16,6 @@ public class BasePage {
 
 
 
-    //Locators
-
-
 
 
 }

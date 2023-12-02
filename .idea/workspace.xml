@@ -142,6 +142,7 @@
       <workItem from="1701460144806" duration="374000" />
       <workItem from="1701460536091" duration="92000" />
       <workItem from="1701460715546" duration="48000" />
+      <workItem from="1701538299330" duration="14000" />
     </task>
     <servers />
   </component>
@@ -195,5 +196,16 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
