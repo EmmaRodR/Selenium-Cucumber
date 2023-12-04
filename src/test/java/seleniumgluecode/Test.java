@@ -7,9 +7,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.LoginPage;
 
-public class Test extends TestBase {
-
-
+public class    Test extends TestBase {
 
     @Given("I am on the OpenCart login page")
     public void i_am_on_the_open_cart_login_page() {
