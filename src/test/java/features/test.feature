@@ -1,3 +1,5 @@
+
+@FunctionalTest     // Execute all the scenarios contained in the Feature.
 Feature: Login Functionality for OpenCart E-commerce Website
 
   As a user of the OpenCart website
@@ -6,6 +8,7 @@ Feature: Login Functionality for OpenCart E-commerce Website
 
   Background:
     Given I am on the OpenCart login page
+
 
   Scenario: Successful login with valid credentials
     Given I have entered a valid username and password

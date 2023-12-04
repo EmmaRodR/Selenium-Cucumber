@@ -11,11 +11,13 @@ import org.junit.runner.RunWith;
         features = "src/test/java/features",
         glue = {"seleniumgluecode"},
         plugin = {"json:test/report/cucumber_report.json"}
+        ,tags = "@FunctionalTest"
 )
 
 
 public class TestRunner {
 
+        //Initialize report generator
         @AfterClass
         public static void initReport () {
 

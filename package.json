@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a framework using Selenium + Java + Maven + Cucumber. Following the POM and PageFactory design patterns.",
   "main": "index.js",
-  "scripts": { "report" : "node index.js"},
+  "scripts": { "report" : "node index.js"}, 
     "test": "echo \"Error: no test specified\" && exit 1",
 
   "author": "Emmanuel Rodriguez",

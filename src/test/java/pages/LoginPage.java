@@ -11,7 +11,6 @@ public class LoginPage {
 
     private WebDriver driver;
 
-    // Locators
 
     @FindBy(how = How.NAME, using = "email")
     private WebElement emailInputLocator;
@@ -30,6 +29,7 @@ public class LoginPage {
 
     @FindBy(how = How.CSS, using = ".alert-danger")
     private WebElement alertText;
+
 
 
     public LoginPage(WebDriver driver) {
