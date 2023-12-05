@@ -1,5 +1,10 @@
 # SeleniumWithCucumber
 
-This is a framework using Selenium + Java + Maven + Cucumber. Following the POM and PageFactory design patterns.
+This is a framework using Selenium + Java + Maven + Junit + Cucumber. Following the POM and PageFactory design patterns.
 
-I use BDD for make easy understand scenarios for all team. 
+I applied BDD using Cucumber and the Gherking sintax for make easy understand scenarios for all team. 
+
+----------------------------------
+Content :
+
+
