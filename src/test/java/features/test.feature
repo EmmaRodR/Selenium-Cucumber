@@ -1,5 +1,5 @@
 
-@FunctionalTest     // Execute all the scenarios contained in the Feature.
+@FunctionalTest
 Feature: Login Functionality for OpenCart E-commerce Website
 
   As a user of the OpenCart website
