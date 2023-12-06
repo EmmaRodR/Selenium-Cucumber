@@ -1,6 +1,6 @@
 # SeleniumWithCucumber
 
-This is a framework using Selenium + Java + Maven + JUnit + Cucumber, following the POM and PageFactory design patterns.
+This is a BDD framework using Selenium + Java + Maven + JUnit + Cucumber, following the POM and PageFactory design patterns.
 
 I applied BDD using Cucumber and the Gherkin syntax to make scenarios easy to understand for the entire team. This feature is about a simple login functionality and contains one valid case with valid credentials, as well as three invalid cases with three sets of invalid credentials using a datatable. All the cases have their own assertions.
 
